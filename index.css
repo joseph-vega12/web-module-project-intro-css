@@ -1,0 +1,286 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 62.5%;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+body {
+    background: white;
+    line-height: 1;
+    color: black;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+/* tables still need cellspacing="0" in the markup */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    font-weight: normal;
+    text-align: left;
+}
+
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+blockquote,
+q {
+    quotes: """";
+}
+
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+p,
+a {
+    font-family: 'Roboto Mono', monospace;
+}
+
+header nav {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+header nav a {
+    display: inline-block;
+    padding: 1% 0;
+    /* t r b l */
+    margin: 0 7%;
+    width: 15%;
+    border-radius: 15px;
+    font-size: 1.8rem;
+    color: white;
+}
+
+header nav a:nth-child(1) {
+    background: #FF764E;
+}
+
+header nav a:nth-child(2) {
+    background: #5ED3EB;
+}
+
+header nav a:last-child {
+    background: #FFCD69;
+}
+
+header img {
+    width: 18%;
+    border-radius: 100%;
+    margin: 0 5% 0 10%;
+}
+
+header div h1 {
+    vertical-align: top;
+    font-size: 6.0rem;
+    display: inline-block;
+    margin: 5% 0;
+}
+
+header div {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+header div p {
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+section {
+    margin: 5% 7% 5%;
+    /* margin: 1% 18% 1%; */
+}
+
+.top-content {
+    background: #DDB9A3;
+    padding: 0.3% 2%;
+}
+
+.top-content p {
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.8% 0;
+}
+
+.first-image{
+    padding:4%;
+    text-align:center;
+    width:35%;
+    margin:0 auto;
+}
+
+
+.first-image img {
+    width: 40%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.first-image p {
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+
+.first-image span {
+    font-weight: bold;
+    font-size: 1.5rem;;
+}
+
+.second-image{
+    padding:4%;
+    text-align:center;
+    width:36%;
+    margin: 0 auto;
+    margin-bottom: 10%; 
+}
+
+
+.second-image img {
+    width: 40%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.second-image p {
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+
+.second-image span {
+    font-weight: bold;
+    font-size: 1.5rem;;
+}
+
+footer img {
+    width: 100%;
+    height: 30vh;
+}
+
+footer nav {
+    background: #F9E7DC;
+    text-align: center;
+    /* height: 20vh ; */
+    padding-top: 4%; 
+    padding-bottom: 4%;
+}
+
+footer nav a {
+    display: inline-block;
+    padding: 1% 0;
+    /* t r b l */
+    margin: 0 7%;
+    width: 15%;
+    border-radius: 15px;
+    font-size: 1.8rem;
+    color: white;
+}
+
+footer nav a:nth-child(1) {
+    background: #FF764E;
+}
+
+footer nav a:nth-child(2) {
+    background: #5ED3EB;
+}
+
+footer nav a:last-child {
+    background: #FFCD69;
+}
